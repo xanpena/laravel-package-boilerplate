@@ -1,0 +1,53 @@
+{
+    "name": "xanpena/laravel-package-boilerplate",
+    "description": "Laravel Package Boilerplate",
+    "keywords": [
+        "laravel",
+        "packages",
+        "boilerplate"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xan Pena",
+            "email": "xanpena@outlook.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xanpena\\LaravelPackageBoilerplate\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xanpena\\LaravelPackageBoilerplate\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xanpena\\LaravelPackageBoilerplate\\LaravelPackageBoilerplateServiceProvider"
+            ],
+            "aliases": {
+                "LaravelPackageBoilerplate": "Xanpena\\LaravelPackageBoilerplate\\LaravelPackageBoilerplateFacade"
+            }
+        }
+    }
+}
