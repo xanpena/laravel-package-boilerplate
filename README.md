@@ -38,4 +38,4 @@ If you discover any security related issues, please using the issue tracker.
 
 ## Credits
 
-- [Xan Pena](https://gitlab.com/xanpena)
+- [Xan Pena](https://github.com/xanpena)

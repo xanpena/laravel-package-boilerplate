@@ -8,6 +8,6 @@ All notable changes to this project will be documented in this file.
 
 - Initial boilerplate to create Laravel Packages.
 
-[Unreleased]: https://gitlab.com/xanpena/laravel-package-boilerplate
+[Unreleased]: https://github.com/xanpena/laravel-package-boilerplate
 
 
